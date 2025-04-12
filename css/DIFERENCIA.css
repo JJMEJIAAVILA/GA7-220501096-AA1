@@ -1,0 +1,42 @@
+h1 {
+  color: #fff; /* Título principal en blanco */
+  text-align: center;
+}
+
+.versionamiento-local h2,
+.versionamiento-remoto h2,
+.conclusion h2 {
+  color: #333; /* Subtítulos de sección en color oscuro */
+}
+
+.versionamiento-local,
+.versionamiento-remoto,
+.conclusion {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.versionamiento-local h3,
+.versionamiento-remoto h3 {
+  color: #007bff;
+  margin-top: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.versionamiento-local ul,
+.versionamiento-remoto ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  color: #333;
+}
+
+.versionamiento-local li,
+.versionamiento-remoto li,
+.conclusion p {
+  color: #333;
+}

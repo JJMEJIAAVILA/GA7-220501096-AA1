@@ -1,0 +1,199 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #f0f8ff, #e0f2f7);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  line-height: 1.6;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 20px;
+}
+
+header {
+  background-color: #007bff;
+  color: white;
+  padding: 1.5em 20px;
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  width: 80%;
+  max-width: 960px;
+}
+
+.logo-nombre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%; /* Asegurar que ocupe todo el ancho del header */
+}
+
+.logo {
+  height: auto;
+  width: 75px; /* Logo del SENA más pequeño (ajusta este valor si es necesario) */
+  margin-right: 15px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 0;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  flex-grow: 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 600px;
+  width: 90%;
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  align-items: center;
+}
+
+.profile-info {
+  padding: 25px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+  background-color: #f9f9f9;
+  width: 80%;
+}
+
+.profile-image {
+  margin-bottom: 15px;
+}
+
+.profile-pic {
+  width: auto;
+  height: 60px;
+  border-radius: 5px;
+  object-fit: cover;
+  border: 3px solid #aaa;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.name-author {
+  font-weight: bold;
+  color: #444;
+  font-size: 1em;
+}
+
+.program-details {
+  text-align: center;
+}
+
+.program-details h2 {
+  color: #007bff;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 8px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.program-details p {
+  margin-bottom: 15px;
+  font-size: 0.95em;
+  color: #555;
+}
+
+.navigation {
+  padding: 25px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #f9f9f9;
+  width: 80%;
+}
+
+.navigation h2 {
+  color: #007bff;
+  border-bottom: 3px solid #ccc;
+  padding-bottom: 8px;
+  font-size: 1.5em;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 18px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.02);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-button:active {
+  transform: scale(0.98);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5em;
+  background-color: #333;
+  color: white;
+  font-size: 0.8em;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  body {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .container {
+    max-width: 800px;
+    width: 80%;
+    margin-top: 50px;
+  }
+
+  .profile-info {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .profile-image {
+    margin-bottom: 0;
+    margin-right: 20px;
+  }
+
+  .program-details {
+    text-align: left;
+  }
+
+  .button-grid {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
