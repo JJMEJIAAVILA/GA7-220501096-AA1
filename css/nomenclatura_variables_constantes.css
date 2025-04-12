@@ -1,0 +1,63 @@
+/* Estilos generales (se complementan con estilos_generales.css) */
+
+h1 {
+  color: #fff; /* Título principal en blanco */
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333; /* Títulos de sección en color oscuro */
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+section h3 {
+  color: #007bff; /* Azul para los subtemas */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+section ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Estilos específicos para esta página */
+.nomenclatura-ejemplo {
+  background-color: #fffde7;
+  color: #827717;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: monospace;
+}
+
+.tipo-nomenclatura {
+  font-weight: bold;
+  color: #1a237e;
+}

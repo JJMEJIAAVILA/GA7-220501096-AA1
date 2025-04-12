@@ -1,0 +1,64 @@
+/* Estilos generales (se complementan con estilos_generales.css) */
+
+h1 {
+  color: #fff; /* Título principal en blanco */
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+section h2 {
+  color: #333; /* Títulos de sección en color oscuro */
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+section h3 {
+  color: #28a745; /* Verde para los subtemas */
+  margin-top: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+section ul {
+  list-style-type: disc;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+section p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Estilos específicos para esta página */
+.codigo-ejemplo {
+  background-color: #e0f7fa;
+  color: #004d40;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-family: monospace;
+  white-space: pre-wrap; /* Para preservar el formato del código */
+}
+
+.lenguaje-destacado {
+  font-weight: bold;
+  color: #d84315;
+}
